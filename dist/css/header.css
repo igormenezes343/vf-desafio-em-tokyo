@@ -2,8 +2,8 @@
   position: sticky;
   top: 0;
   left: 0;
-  background-color: #000;
   color: #eee9e9;
+  background-color: #ff9900;
 }
 .header__container {
   padding: 8px 36px;
@@ -14,6 +14,5 @@
   display: flex;
 }
 .header__links__item {
-  margin: 10px;
   list-style: none;
 }

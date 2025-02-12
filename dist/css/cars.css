@@ -1,0 +1,14 @@
+.cars {
+  padding: 8px;
+}
+.cars__tabs {
+  display: flex;
+  justify-content: center;
+}
+.cars__list {
+  margin-top: 32px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

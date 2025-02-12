@@ -1,6 +1,16 @@
 @use 'variaveis';
 
 .hero{
-    max-width: 100%;
-    text-align: center;
+    
+
+    &__text{
+        text-align: center;
+        margin: 18px 300px;
+        
+        
+    }
+    
+    .title--big{
+        padding-bottom: 24px;
+    }
 }

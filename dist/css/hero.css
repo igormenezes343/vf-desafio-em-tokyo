@@ -1,4 +1,7 @@
-.hero {
-  max-width: 100%;
+.hero__text {
   text-align: center;
+  margin: 18px 300px;
+}
+.hero .title--big {
+  padding-bottom: 24px;
 }

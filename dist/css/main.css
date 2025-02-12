@@ -2,8 +2,8 @@
   position: sticky;
   top: 0;
   left: 0;
-  background-color: #000;
   color: #eee9e9;
+  background-color: #ff9900;
 }
 .header__container {
   padding: 8px 36px;
@@ -14,13 +14,30 @@
   display: flex;
 }
 .header__links__item {
-  margin: 10px;
   list-style: none;
 }
 
-.hero {
-  max-width: 100%;
+.hero__text {
   text-align: center;
+  margin: 18px 300px;
+}
+.hero .title--big {
+  padding-bottom: 24px;
+}
+
+.cars {
+  padding: 8px;
+}
+.cars__tabs {
+  display: flex;
+  justify-content: center;
+}
+.cars__list {
+  margin-top: 32px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 * {
@@ -84,14 +101,14 @@ body {
   font-size: 44px;
   line-height: 54px;
   color: #000;
-  color: #eee9e9;
+  color: #000;
 }
 @media (max-width: 768px) {
   .title--big {
     font-size: 26px;
     line-height: 36px;
     color: #000;
-    color: #eee9e9;
+    color: #000;
   }
 }
 
@@ -99,14 +116,14 @@ body {
   font-size: 40px;
   line-height: 50px;
   color: #000;
-  color: #eee9e9;
+  color: #000;
 }
 @media (max-width: 768px) {
   .title {
     font-size: 24px;
     line-height: 34px;
     color: #000;
-    color: #eee9e9;
+    color: #000;
   }
 }
 
@@ -114,14 +131,14 @@ body {
   font-size: 28px;
   line-height: 38px;
   color: #000;
-  color: #eee9e9;
+  color: #000;
 }
 @media (max-width: 768px) {
   .title--small {
     font-size: 22px;
     line-height: 32px;
     color: #000;
-    color: #eee9e9;
+    color: #000;
   }
 }
 
@@ -130,11 +147,16 @@ body {
   align-items: center;
   justify-content: center;
   padding: 8px 14px;
+  margin: 12px;
   font-size: 18px;
   text-decoration: none;
   border-radius: 4px;
-  border: 1px solid #e7490a;
+  border: 2px solid #e7490a;
   cursor: pointer;
   color: #eee9e9;
   background-color: #e7490a;
+}
+.button--is-active {
+  border-color: #000;
+  color: #000;
 }

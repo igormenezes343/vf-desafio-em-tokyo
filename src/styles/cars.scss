@@ -1,0 +1,18 @@
+@use 'variaveis';
+
+.cars{
+    padding: 8px;
+    
+    &__tabs{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__list{
+        margin-top: 32px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

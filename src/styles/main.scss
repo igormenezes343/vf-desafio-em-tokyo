@@ -1,6 +1,7 @@
 @use 'variaveis';
 @use 'header';
 @use 'hero';
+@use 'cars';
 
 *{
     margin: 0;
@@ -20,7 +21,7 @@ body{
 
 @mixin title($fontSize: 40px){
     @include text($fontSize);
-    color: variaveis.$corDoTextoSecundario;
+    color: variaveis.$corDoTextoPrincipal;
 }
 
 .text--big {
@@ -78,12 +79,18 @@ body{
     align-items: center;
     justify-content: center;
     padding: 8px 14px;
+    margin: 12px;
     font-size: 18px;
     text-decoration: none;
     border-radius: 4px;
-    border: 1px solid variaveis.$corDeFundoBotaoPrimario;
+    border: 2px solid variaveis.$corDeFundoBotaoPrimario;
     cursor: pointer;
     color: variaveis.$corDoTextoSecundario;
     background-color: variaveis.$corDeFundoBotaoPrimario;
+
+    &--is-active{
+        border-color: variaveis.$corDoTextoPrincipal;
+        color: variaveis.$corDoTextoPrincipal;
+    }
 
 }

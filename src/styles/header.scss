@@ -4,8 +4,8 @@
     position: sticky;
     top: 0;
     left: 0;
-    background-color: variaveis.$corDeFundoSegundaria;
     color: variaveis.$corDoTextoSecundario;
+    background-color: variaveis.$corDeFundoPrimaria;
     
 
     &__container {
@@ -20,7 +20,6 @@
         
 
         &__item{
-            margin: 10px;
             list-style: none;
         }
         

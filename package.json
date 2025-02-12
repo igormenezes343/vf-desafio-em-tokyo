@@ -19,6 +19,7 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
+    "gulp-imagemin": "^7.1.0",
     "sass": "^1.84.0"
   }
 }
